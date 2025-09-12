@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>001</title>
+    <title>001.prosty_plik</title>
 </head>
 
 <body>
