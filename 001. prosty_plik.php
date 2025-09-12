@@ -14,7 +14,7 @@
     ?>
     <br>
     <?php
-    echo "Olek";
+    echo "Olek Pabian";
     ?>
 
 </body>
