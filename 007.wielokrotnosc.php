@@ -8,9 +8,10 @@
     <style>
         td {
             border: dotted 10px lightcoral;
-            font: 80px red bold;
+            font-size: 80px;
+            color: yellowgreen;
             padding: 100px;
-            text-shadow: lightslategrey;
+            text-shadow: 3px 4px 2px lightslategrey;
         }
 
         table {
