@@ -8,11 +8,18 @@
     <style>
         * {
             text-align: justify;
+            margin-bottom: 10px;
         }
 
         h3 {
-            background-color: cadetblue;
+            background-color: #88D9E6;
             text-align: center;
+        }
+
+        b {
+            background-color: #c5fffd;
+            border-radius: 0 10px 0 10px;
+            border: solid #a7ecf2;
         }
     </style>
 </head>
