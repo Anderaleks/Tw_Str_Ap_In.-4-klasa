@@ -21,21 +21,25 @@
         font-weight: 600;
 
        }
-span.prawo{
+span.lewo{
     display: inline-block;
   transform: rotate(90deg);
   
 }
-span.lewo{
+span.prawo{
     display: inline-block;
   transform: rotate(270deg);
 }
 
-span.prawo2{
+span.lewo2{
     display: inline-block;
   transform: scaleX(-1)
   
 }
+span.prawo2{
+    display: inline-block;
+}
+
 
 </style>
 </head>
@@ -46,9 +50,9 @@ span.prawo2{
     $b = 12;
     $c = 84;
     ?>
-    <p id="przekatna"><span class="prawo">☝</span>Przekątna prostopadłścianu o krawędziach długośći <?= $a ?>, <?= $b ?> i <?= $c ?> jest równa <?= sqrt($a ** 2 + $b ** 2 + $c ** 2) ?>.<span class="lewo">☝</span></p>
+    <p id="przekatna"><span class="lewo">☝</span>Przekątna prostopadłścianu o krawędziach długośći <?= $a ?>, <?= $b ?> i <?= $c ?> jest równa <?= sqrt($a ** 2 + $b ** 2 + $c ** 2) ?>.<span class="prawo">☝</span></p>
 
-    <p id="pole"><span class="prawo2">✍</span>Pole prostopadłościanu o krawędziach długości <?= $a ?>, <?= $b ?> i <?= $c ?> wynosi <?= 2 * ($a * $b + $a * $c + $b * $c) ?>j<sup>2</sup>.</p><span>✍</span>
+    <p id="pole"><span class="lewo2">✍</span>Pole prostopadłościanu o krawędziach długości <?= $a ?>, <?= $b ?> i <?= $c ?> wynosi <?= 2 * ($a * $b + $a * $c + $b * $c) ?>j<sup>2</sup> .<span class="prawo2">✍</span></p>
 </body>
 
 </html>
