@@ -21,8 +21,8 @@
 
 <body>
     <ul>
-        <li>Pierwszy dzień świat Bożego Narodzenia wypada w tym roku w: <mark><?= date("l", strtotime("25 december 2025")) ?></mark></li>
-        <li>Drugi dzień świat Bożego Narodzenia wypada w tym roku w: <mark><?= date("l", strtotime("26 december 2025")) ?></mark></li>
+        <li>Pierwszy dzień świat Bożego Narodzenia wypada w tym roku w: <mark><?= date("l", strtotime("25 december 2025")) ?></mark>.</li>
+        <li>Drugi dzień świat Bożego Narodzenia wypada w tym roku w: <mark><?= date("l", strtotime("26 december 2025")) ?></mark>.</li>
     </ul>
 </body>
 
